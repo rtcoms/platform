@@ -13,6 +13,10 @@ development: &dev
     app_id: 759uzdf1vr6uas
     app_secret: QPwXjrRYJXxvW8Md
     scope: "r_fullprofile,r_emailaddress,r_network,rw_groups,rw_nus,rw_company_admin"
+  twitter:
+    app_id: 5h3riJ05cYGx5ikzHwZefw
+    app_secret: Dpdnc7LB8j3DsUkBi1kXNOb419fg5yqjWmHuIieU8
+    scope:
 
 
 test:
