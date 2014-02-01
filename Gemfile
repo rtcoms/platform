@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.1'
+gem 'rails', '4.1.0.beta1'
 
 
 # Servers
@@ -30,7 +30,9 @@ gem "uuidtools"
 gem 'has_scope'
 gem 'acts-as-taggable-on'
 # Use SCSS for stylesheets
-gem 'sass-rails'
+gem "sass-rails", "~>4.0.0.rc1"
+gem "compass", "~>0.12.0"
+gem "singularitygs", "~>1.1.2"
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier'
