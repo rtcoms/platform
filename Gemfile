@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.0.beta1'
-
+gem 'polyamorous', github: 'activerecord-hackery/polyamorous'
 
 # Servers
 gem 'puma'
@@ -81,7 +81,7 @@ gem 'less-rails'
 gem 'susy'
 gem 'therubyracer'
 gem 'turbolinks'
-gem 'twitter-bootstrap-rails', github: 'diowa/twitter-bootstrap-rails', branch: 'fontawesome-3.2.1'
+gem 'twitter-bootstrap-rails'
 gem 'bootstrap-sass'
 gem 'backbone-on-rails'
 gem 'zurb-foundation'
