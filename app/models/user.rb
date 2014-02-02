@@ -12,13 +12,14 @@ class User < ActiveRecord::Base
     omniauth_attr = {
       :provider => auth.provider,
       :uid => auth.uid.to_s,
-      :token => auth.credentials.token,
-      :secret => auth.credentials.secret
     }
-    p omniauth_attr
+    logger.info "----------------------------------"
+    logger.info omniauth_attr
+    logger.info "----------------------------------"
 
     authorization = Authorization.where(omniauth_attr).first_or_initialize
     if authorization.user.blank?
+      logger.info "-----------------auth email : #{auth["info"]["email"]}"
       user = current_user || User.where('email = ?', auth["info"]["email"]).first
       if user.blank?
        user = User.new
