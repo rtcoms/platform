@@ -141,6 +141,7 @@ GEM
       eventmachine (>= 0.12.9)
     erubis (2.7.0)
     eventmachine (1.0.3)
+    evernote-thrift (1.25.1)
     execjs (2.0.2)
     faraday (0.9.0)
       multipart-post (>= 1.2, < 3)
@@ -296,8 +297,19 @@ GEM
     omniauth (1.2.1)
       hashie (>= 1.2, < 3)
       rack (~> 1.0)
+    omniauth-dropbox (0.2.0)
+      omniauth-oauth (~> 1.0)
+    omniauth-evernote (1.2.0)
+      evernote-thrift
+      multi_json (~> 1.0)
+      omniauth-oauth (~> 1.0)
     omniauth-facebook (1.6.0)
       omniauth-oauth2 (~> 1.1)
+    omniauth-flickr (0.0.13)
+      omniauth-oauth (~> 1.0)
+    omniauth-foursquare (1.0.0)
+      omniauth (~> 1.0)
+      omniauth-oauth2 (~> 1.0)
     omniauth-github (1.1.1)
       omniauth (~> 1.0)
       omniauth-oauth2 (~> 1.1)
@@ -587,7 +599,11 @@ DEPENDENCIES
   mysql2
   nokogiri
   omniauth
+  omniauth-dropbox
+  omniauth-evernote
   omniauth-facebook
+  omniauth-flickr
+  omniauth-foursquare
   omniauth-github
   omniauth-linkedin
   omniauth-openid
