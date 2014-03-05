@@ -5,6 +5,7 @@ gem 'rails', '4.1.0.beta1'
 gem 'polyamorous', github: 'activerecord-hackery/polyamorous'
 
 # Servers
+gem 'gravtastic'
 gem 'puma'
 gem 'unicorn'
 gem "thin"
