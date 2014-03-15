@@ -71,7 +71,7 @@ gem 'simple_form'
 gem 'reform'
 gem 'kaminari'
 gem 'acts-as-taggable-on'
-gem 'destroyed_at'
+#gem 'destroyed_at'
 gem 'validates_timeliness'
 #for search
 #gem 'searchkick' -- depends on old version of gem tire -- so gives error
