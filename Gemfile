@@ -141,7 +141,7 @@ group :development do
   gem 'binding_of_caller' #adds REPL to better_errors
   gem 'guard-livereload' #adds live reload
   gem 'rack-livereload'
-  gem 'xray-rails'
+  #gem 'xray-rails'
 end
 
 group :test do

@@ -232,6 +232,7 @@ Devise.setup do |config|
   config.omniauth :linkedin, social_config[:linkedin]["app_id"], social_config[:linkedin]["app_secret"], :scope => social_config[:linkedin]["scope"], :fields => ["id", "email-address", "first-name", "last-name", "headline", "industry", "picture-url", "public-profile-url", "location", "connections"], :client_options => {:ssl => {:ca_path => '/etc/ssl/certs'}}
   config.omniauth :github, social_config[:github]["app_id"], social_config[:github]["app_secret"], :scope => social_config[:github]["scope"], :client_options => {:ssl => {:ca_path => '/etc/ssl/certs'}}
   config.omniauth :twitter, social_config[:twitter]["app_id"], social_config[:twitter]["app_secret"]
+  config.omniauth :foursquare, social_config[:foursquare]["app_id"], social_config[:foursquare]["app_secret"]
 
   # ==> Warden configuration
   # If you want to use other strategies, that are not supported by Devise, or

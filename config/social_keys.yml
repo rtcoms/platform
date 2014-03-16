@@ -17,6 +17,9 @@ development: &dev
     app_id: 5h3riJ05cYGx5ikzHwZefw
     app_secret: Dpdnc7LB8j3DsUkBi1kXNOb419fg5yqjWmHuIieU8
     scope:
+  foursquare:
+    app_id: 0ISS3GQT25HNVVAXCKCARVTCUPDM2CRGEARY3SU3RKTOTEES
+    app_secret: 0KS4AA5FBHGAFH41D2OPTNDGZYWRZZFX5T4FWYOCOUE2XX4R
 
 
 test:

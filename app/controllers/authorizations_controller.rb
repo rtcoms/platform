@@ -17,6 +17,7 @@ class AuthorizationsController < ApplicationController
   alias_method :linkedin, :all
   alias_method :github, :all
   alias_method :twitter, :all
+  alias_method :foursquare, :all
 
   # def linkedin
   #   client = LinkedIn::Client.new(Rails.configuration.social_config[:linkedin]["app_id"], Rails.configuration.social_config[:linkedin]["app_secret"])
