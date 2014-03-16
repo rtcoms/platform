@@ -29,8 +29,49 @@
 <% if alert %>
   <p class="alert alert-error"><%= alert %></p>
 <% end %>
+<style type="text/css">
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+.body{
+  color: #151515;
+}
+</style>
 
 <%= yield %>
+
+<div style="width: 100%; height: 100px; background-color: #59cab8; display: inline-block;">
+  <div style="width: 10%; float: left; text-align: center;">TODOS</div>
+  <div style="width: 80%; float: left; text-align: center;">CURRENT TODO</div>
+  <div style="width: 10%; float: left; text-align: center;">ACTION ITEMS</div>
+</div>
+<div style="width: 100%; height: 100px; background-color: #009fdf; display: inline-block;">
+  <h1>NOTES</h1>
+</div>
+<div style="width: 100%; height: 100px; background-color: #009d5c; display: inline-block;">
+  <h1>TODOS</h1>
+</div>
+<div style="width: 100%; height: 100px; background-color: #f08874; display: inline-block;">
+  <h1>TODOS</h1>
+</div>
+<div style="width: 100%; height: 100px; background-color: #343434; display: inline-block;">
+  <h1>TODOS</h1>
+</div>
+<div style="width: 100%; height: 100px; background-color: #ffdb44; display: inline-block;">
+  <h1>TODOS</h1>
+</div>
+<div style="width: 100%; height: 100px; background-color: #fffae9; display: inline-block;">
+  <h1>TODOS</h1>
+</div>
+
+
+
+
+
 
 </body>
 </html>
