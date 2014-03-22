@@ -7,7 +7,7 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-  <header class="header-section">
+  <header class="header-section" style="height: 40%;">
       APP LAYOUT HEADER
     </header>
 
@@ -39,33 +39,32 @@
 }
 .body{
   color: #151515;
+  height: 100%;
 }
 </style>
 
 <%= yield %>
 
-<div style="width: 100%; height: 100px; background-color: #59cab8; display: inline-block;">
-  <div style="width: 10%; float: left; text-align: center;">TODOS</div>
+<div style="width: 100%; height: 20%; background-color: #59cab8; display: inline-block;">
+  <h1>GREEN</h1>
+  <div style="width: 10%; float: left; text-align: center;">CATEGORY</div>
   <div style="width: 80%; float: left; text-align: center;">CURRENT TODO</div>
   <div style="width: 10%; float: left; text-align: center;">ACTION ITEMS</div>
 </div>
-<div style="width: 100%; height: 100px; background-color: #009fdf; display: inline-block;">
-  <h1>NOTES</h1>
-</div>
-<div style="width: 100%; height: 100px; background-color: #009d5c; display: inline-block;">
-  <h1>TODOS</h1>
+<div style="width: 100%; height: 100px; background-color: #7ec2fe; display: inline-block;">
+  <h1>BLUE</h1>
 </div>
 <div style="width: 100%; height: 100px; background-color: #f08874; display: inline-block;">
-  <h1>TODOS</h1>
+  <h1>RED</h1>
 </div>
-<div style="width: 100%; height: 100px; background-color: #343434; display: inline-block;">
-  <h1>TODOS</h1>
+<div style="width: 100%; height: 100px; background-color: #7c7c7c; display: inline-block;">
+  <h1>BLACK</h1>
 </div>
 <div style="width: 100%; height: 100px; background-color: #ffdb44; display: inline-block;">
-  <h1>TODOS</h1>
+  <h1>YELLOWS</h1>
 </div>
 <div style="width: 100%; height: 100px; background-color: #fffae9; display: inline-block;">
-  <h1>TODOS</h1>
+  <h1>WHITE</h1>
 </div>
 
 
