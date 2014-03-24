@@ -109,6 +109,7 @@ gem 'haml'
 gem 'nokogiri'
 # gem 'resque', require: 'resque/server' # Resque web interface
 gem 'sidekiq'
+gem 'ahoy'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
