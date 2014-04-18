@@ -110,6 +110,15 @@ gem 'nokogiri'
 # gem 'resque', require: 'resque/server' # Resque web interface
 gem 'sidekiq'
 gem 'ahoy'
+gem 'peek'
+gem 'peek-active_resource'
+gem 'peek-git'
+gem 'peek-mysql2'
+gem 'peek-performance_bar'
+gem 'peek-pg'
+gem 'peek-redis'
+gem 'peek-resque'
+gem 'peek-sidekiq'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
