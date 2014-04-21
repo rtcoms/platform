@@ -518,6 +518,8 @@ GEM
       json (~> 1.8)
       rdoc (~> 4.0, < 5.0)
     sexp_processor (4.4.3)
+    shoulda-matchers (2.5.0)
+      activesupport (>= 3.0.0)
     sidekiq (3.0.0)
       celluloid (>= 0.15.2)
       connection_pool (>= 2.0.0)
@@ -695,6 +697,7 @@ DEPENDENCIES
   rspec-rails
   sass-rails (~> 4.0.0.rc1)
   sdoc
+  shoulda-matchers
   sidekiq
   simple_form
   singularitygs (~> 1.1.2)

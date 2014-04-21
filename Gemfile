@@ -145,6 +145,7 @@ group :development do
   gem 'binding_of_caller'
   gem 'meta_request'
   gem 'annotate', :git => 'git://github.com/ctran/annotate_models.git'
+  gem "shoulda-matchers"
   gem "guard-rspec"
   gem 'rails_panel'
   #gem 'tracer_bullet'
